@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20181024 10:58:15.186" generator="Robot 3.0.4 (Python 2.7.9 on linux2)">
+<suite source="/home/drc/eclipse-workspace/RobotFramework" id="s1" name="RobotFramework">
+<suite source="/home/drc/eclipse-workspace/RobotFramework/test3.robot" id="s1-s1" name="Test3">
+<test id="s1-s1-t1" name="Valid Login">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Open Browser To Login Page</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181024 10:58:15.329" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" endtime="20181024 10:58:15.330" starttime="20181024 10:58:15.329"></status>
+</kw>
+<msg timestamp="20181024 10:58:15.330" level="FAIL">'Open Browser To Login Page' is not a valid WebDriver name.</msg>
+<status status="FAIL" endtime="20181024 10:58:15.331" starttime="20181024 10:58:15.328"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Input Username</arg>
+<arg>operator</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181024 10:58:15.332" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" endtime="20181024 10:58:15.332" starttime="20181024 10:58:15.332"></status>
+</kw>
+<msg timestamp="20181024 10:58:15.333" level="FAIL">'Input Username' is not a valid WebDriver name.</msg>
+<status status="FAIL" endtime="20181024 10:58:15.333" starttime="20181024 10:58:15.331"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Input Password</arg>
+<arg>P@ssword1</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181024 10:58:15.334" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" endtime="20181024 10:58:15.334" starttime="20181024 10:58:15.334"></status>
+</kw>
+<msg timestamp="20181024 10:58:15.335" level="FAIL">'Input Password' is not a valid WebDriver name.</msg>
+<status status="FAIL" endtime="20181024 10:58:15.335" starttime="20181024 10:58:15.333"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Submit Credential</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181024 10:58:15.337" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" endtime="20181024 10:58:15.337" starttime="20181024 10:58:15.336"></status>
+</kw>
+<msg timestamp="20181024 10:58:15.337" level="FAIL">'Submit Credential' is not a valid WebDriver name.</msg>
+<status status="FAIL" endtime="20181024 10:58:15.337" starttime="20181024 10:58:15.336"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Welcome Page Should Be Open</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181024 10:58:15.339" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" endtime="20181024 10:58:15.339" starttime="20181024 10:58:15.338"></status>
+</kw>
+<msg timestamp="20181024 10:58:15.339" level="FAIL">'Welcome Page Should Be Open' is not a valid WebDriver name.</msg>
+<status status="FAIL" endtime="20181024 10:58:15.340" starttime="20181024 10:58:15.338"></status>
+</kw>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20181024 10:58:15.340" starttime="20181024 10:58:15.340"></status>
+</kw>
+<timeout value="15 seconds"></timeout>
+<status status="FAIL" endtime="20181024 10:58:15.341" critical="yes" starttime="20181024 10:58:15.327">Several failures occurred:
+
+1) 'Open Browser To Login Page' is not a valid WebDriver name.
+
+2) 'Input Username' is not a valid WebDriver name.
+
+3) 'Input Password' is not a valid WebDriver name.
+
+4) 'Submit Credential' is not a valid WebDriver name.
+
+5) 'Welcome Page Should Be Open' is not a valid WebDriver name.</status>
+</test>
+<doc>Simple Exemple</doc>
+<status status="FAIL" endtime="20181024 10:58:15.342" starttime="20181024 10:58:15.234"></status>
+</suite>
+<status status="FAIL" endtime="20181024 10:58:15.344" starttime="20181024 10:58:15.209"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="RobotFramework" pass="0">RobotFramework</stat>
+<stat fail="1" id="s1-s1" name="Test3" pass="0">RobotFramework.Test3</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
